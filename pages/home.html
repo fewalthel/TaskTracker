@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>General page</title>
+        <link rel="stylesheet" href="../css/home.css">
+    </head>
+    <body>
+        <div>
+        <header>
+            <h1>Welcome to your personal task tracker<span class="flare"></span></h1>
+        </header>
+
+        <nav>
+            <ul class="topmenu">
+                <td><button id="tasksButton" class="page-button" onclick="goToTasks()"><h2>Tasks</h2></button></td>
+                <td><button id="aboutButton" class="page-button" onclick="getElementById('hiddenText').style.opacity = 1" ><h2>About us</h2></button></td>
+                <td><button id="lkButton" class="page-button"><h2>Account</h2></button></td>
+            </ul>
+        </nav>
+        </div>
+
+        <main>
+            <ul id="hiddenText"><p>This application was created as
+                test project to demonstrate frontend
+                development learnings</p></ul>
+        </main>
+
+        <footer>
+           
+        </footer>
+        <style> #hiddenText{ opacity: 0}</style>
+        <script src="../js/script.js"></script>
+    </body>
+</html>

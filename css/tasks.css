@@ -1,0 +1,94 @@
+h1 {
+    margin-left: 8vw;
+    font-family: 'Segoe UI';
+    font-size: 5vw;
+}
+
+.container-for-tasks {
+    align-items: center;
+    border-spacing: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-for-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+.topButtons {
+    font-family:'Segoe UI';
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    opacity: 0.7;
+    width: 22vw;
+    height: 10vh;
+    font-size: 100%;
+}
+
+.topButtons:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+#generalPage {
+    background-color: rgb(255, 212, 238);
+    color: rgb(255, 80, 185);
+}
+
+#addTask {
+    background-color: rgb(229, 242, 255);
+    color:rgb(41, 84, 226);
+}
+
+#todoSection {
+    background-color: rgb(255, 249, 236);
+    color: rgb(233, 173, 42);
+}
+
+#inprogressSection {
+    background-color: rgb(245, 236, 255);
+    color: rgb(162, 81, 255);
+}
+
+#doneSection {
+    background-color: rgb(234, 255, 234);
+    color: rgb(32, 230, 32);
+}
+
+.section{
+    padding: 30px;
+    border-radius: 40px;
+    display: flex;
+    height: 55vh;  
+    font-family:'Segoe UI';
+    font-size: 3vw;
+    font-weight: 700;
+    width: 21vw;
+}
+
+body {
+    background-color:  aliceblue;
+}
+
+header {
+    margin: 20px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-right: 40px;
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 1, 0.15);
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    margin: 20px;
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 1, 0.15);
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    padding-right: 40px;
+}
