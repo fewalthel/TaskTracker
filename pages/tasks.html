@@ -8,14 +8,22 @@
     </head>
     <body>
         <header>
-            <h1>My tasks</h1>
+            <h2>My tasks</h2>
             <ul class = "container-for-buttons">
                 <button id = "generalPage" class = "topButtons" onclick = "goToGeneralPage()"><h3>General page</h3></button>
                 <button id = "addTask" class = "topButtons"><h3>+ Add task</h3></button>
             </ul>
+
+            <div id = "windowForTask">
+                <h1>Input description of your task</h1>
+                <input type="text" class = "inputButtons" id="textInput" placeholder="Description" >
+                <button class = "inputButtons" id="addButton">Add</button>
+                <div id="textContainer"></div>
+            </div>
+            
         </header>
         <main>
-            <ul class = "container-for-tasks">
+            <ul class = "container-for-sections">
                 <td><p id="todoSection" class = "section">To do</p></td>
                 <td><p  id="inprogressSection" class = "section">In process</p></td>
                 <td><p  id="doneSection" class = "section">Done</p></td>            
